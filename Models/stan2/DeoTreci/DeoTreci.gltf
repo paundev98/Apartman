@@ -1,0 +1,766 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Kubusi.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                60.51568603515625,
+                7.24306583404541,
+                8.881706237792969
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "kubusi dugacki.001",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -76.24391174316406,
+                16.245849609375,
+                -270.9456481933594
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Lajsna.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                80.29277038574219,
+                -6.910508632659912,
+                21.657398223876953
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "Metal stepenice.001",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -96.02735900878906,
+                188.41778564453125,
+                -150.16616821289062
+            ]
+        },
+        {
+            "mesh" : 4,
+            "name" : "orman.001",
+            "rotation" : [
+                0,
+                0.7071066498756409,
+                0,
+                0.70710688829422
+            ],
+            "translation" : [
+                79.03788757324219,
+                312.78533935546875,
+                23.477249145507812
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "svetiljke.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -141.97434997558594,
+                272.1051940917969,
+                273.3093566894531
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "kubusi",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        },
+        {
+            "name" : "kubusi dugacki",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "occlusionTexture" : {
+                "index" : 4
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 5
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 4
+                }
+            }
+        },
+        {
+            "name" : "Lajsna",
+            "normalTexture" : {
+                "index" : 6
+            },
+            "occlusionTexture" : {
+                "index" : 7
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 8
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 7
+                }
+            }
+        },
+        {
+            "name" : "metal",
+            "normalTexture" : {
+                "index" : 9
+            },
+            "occlusionTexture" : {
+                "index" : 10
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 11
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 10
+                }
+            }
+        },
+        {
+            "name" : "Orman",
+            "normalTexture" : {
+                "index" : 12
+            },
+            "occlusionTexture" : {
+                "index" : 13
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 14
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 13
+                }
+            }
+        },
+        {
+            "name" : "svetiljka",
+            "normalTexture" : {
+                "index" : 15
+            },
+            "occlusionTexture" : {
+                "index" : 16
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 17
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 16
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Kubusi",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "kubusi dugacki",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Lajsna",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Metal stepenice",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 3,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 15,
+                    "material" : 3,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "orman",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 16,
+                        "NORMAL" : 17,
+                        "TEXCOORD_0" : 18
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 4,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 19,
+                    "material" : 4,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "svetiljke",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 20,
+                        "NORMAL" : 21,
+                        "TEXCOORD_0" : 22
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 5,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 23,
+                    "material" : 5,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        },
+        {
+            "sampler" : 0,
+            "source" : 9
+        },
+        {
+            "sampler" : 0,
+            "source" : 10
+        },
+        {
+            "sampler" : 0,
+            "source" : 11
+        },
+        {
+            "sampler" : 0,
+            "source" : 12
+        },
+        {
+            "sampler" : 0,
+            "source" : 13
+        },
+        {
+            "sampler" : 0,
+            "source" : 14
+        },
+        {
+            "sampler" : 0,
+            "source" : 15
+        },
+        {
+            "sampler" : 0,
+            "source" : 16
+        },
+        {
+            "sampler" : 0,
+            "source" : 17
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "kubusi_normal",
+            "uri" : "kubusi_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "kubusi_occlusionRoughnessMetallic",
+            "uri" : "kubusi_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "kubusi_baseColor",
+            "uri" : "kubusi_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "kubusi dugacki_normal",
+            "uri" : "kubusi%20dugacki_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "kubusi dugacki_occlusionRoughnessMetallic",
+            "uri" : "kubusi%20dugacki_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "kubusi dugacki_baseColor",
+            "uri" : "kubusi%20dugacki_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Lajsna_normal",
+            "uri" : "Lajsna_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Lajsna_occlusionRoughnessMetallic",
+            "uri" : "Lajsna_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Lajsna_baseColor",
+            "uri" : "Lajsna_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "metal_normal",
+            "uri" : "metal_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "metal_occlusionRoughnessMetallic",
+            "uri" : "metal_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "metal_baseColor",
+            "uri" : "metal_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Orman_normal",
+            "uri" : "Orman_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Orman_occlusionRoughnessMetallic",
+            "uri" : "Orman_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Orman_baseColor",
+            "uri" : "Orman_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "svetiljka_normal",
+            "uri" : "svetiljka_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "svetiljka_occlusionRoughnessMetallic",
+            "uri" : "svetiljka_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "svetiljka_baseColor",
+            "uri" : "svetiljka_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 9219,
+            "max" : [
+                253.35855102539062,
+                73.803466796875,
+                22.475341796875
+            ],
+            "min" : [
+                -76.07733154296875,
+                -321.43878173828125,
+                -13.32672119140625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9219,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 9219,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 20532,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 292,
+            "max" : [
+                95,
+                22.49993896484375,
+                405.80059814453125
+            ],
+            "min" : [
+                -88.99700927734375,
+                -22.5,
+                -17.99615478515625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 292,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 292,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 504,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 118,
+            "max" : [
+                306.6568908691406,
+                387.4798889160156,
+                15
+            ],
+            "min" : [
+                -299.1756591796875,
+                -308.96630859375,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 118,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 118,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 180,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 896,
+            "max" : [
+                215.77935791015625,
+                90.32821655273438,
+                27.00006103515625
+            ],
+            "min" : [
+                25.77777099609375,
+                -194.572021484375,
+                -230.0098876953125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 896,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 896,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 1176,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 308,
+            "max" : [
+                -0.722686767578125,
+                -39.040374755859375,
+                -279.97296142578125
+            ],
+            "min" : [
+                -313.3633728027344,
+                -320.0395202636719,
+                -280.07318115234375
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 308,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 308,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 396,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 900,
+            "max" : [
+                4.00006103515625,
+                403.85601806640625,
+                1
+            ],
+            "min" : [
+                -3.99993896484375,
+                -4.0000152587890625,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 900,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 900,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 1920,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 36840,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1697,
+            "byteOffset" : 36840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 893,
+            "byteOffset" : 38540
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3259,
+            "byteOffset" : 39436
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1624,
+            "byteOffset" : 42696
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3749,
+            "byteOffset" : 44320
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 48072,
+            "uri" : "DeoTreci.bin"
+        }
+    ]
+}

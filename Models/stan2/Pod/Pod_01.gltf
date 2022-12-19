@@ -1,0 +1,291 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "pod.001",
+            "rotation" : [
+                0,
+                0.70710688829422,
+                -0.7071066498756409,
+                5.338508302088485e-08
+            ],
+            "scale" : [
+                -1.0000004768371582,
+                -1.0000004768371582,
+                -1.0000004768371582
+            ],
+            "translation" : [
+                -22.5926513671875,
+                -7.254130840301514,
+                4.993532180786133
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "tepih.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                76.61044311523438,
+                -5.368645191192627,
+                83.70140075683594
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "pod",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        },
+        {
+            "name" : "tepih",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "occlusionTexture" : {
+                "index" : 4
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 5
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 4
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "pod",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "tepih",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "pod_normal",
+            "uri" : "pod_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "pod_occlusionRoughnessMetallic",
+            "uri" : "pod_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "StanzaMobilni_pod_BaseColor",
+            "uri" : "StanzaMobilni_pod_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "tepih_normal",
+            "uri" : "tepih_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "tepih_occlusionRoughnessMetallic",
+            "uri" : "tepih_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "tepih_baseColor",
+            "uri" : "tepih_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                489.52099609375,
+                350.63006591796875,
+                1.00006103515625
+            ],
+            "min" : [
+                -216.54266357421875,
+                -403.796630859375,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 108,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1931,
+            "max" : [
+                125.00006103515625,
+                225.0001220703125,
+                0.75
+            ],
+            "min" : [
+                -125.0001220703125,
+                -225.00003051757812,
+                -0.7501220703125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1931,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1931,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 5712,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 878,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9615,
+            "byteOffset" : 880
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 10496,
+            "uri" : "Pod_01.bin"
+        }
+    ]
+}

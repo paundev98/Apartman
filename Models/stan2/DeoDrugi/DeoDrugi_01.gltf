@@ -1,0 +1,406 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "jastuci.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                159.70443725585938,
+                17.502052307128906,
+                261.93206787109375
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Kauc.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                159.70443725585938,
+                17.502052307128906,
+                261.93206787109375
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "kauc mali.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -91.16664123535156,
+                17.506702423095703,
+                229.12887573242188
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "jastuci",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        },
+        {
+            "name" : "kauc",
+            "normalTexture" : {
+                "index" : 3
+            },
+            "occlusionTexture" : {
+                "index" : 4
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 5
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 4
+                }
+            }
+        },
+        {
+            "name" : "kauc mali",
+            "normalTexture" : {
+                "index" : 6
+            },
+            "occlusionTexture" : {
+                "index" : 7
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 8
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 7
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "jastuci",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Kauc",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "kauc mali",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "jastuci_normal",
+            "uri" : "jastuci_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "jastuci_occlusionRoughnessMetallic",
+            "uri" : "jastuci_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "jastuci_baseColor",
+            "uri" : "jastuci_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "kauc_normal",
+            "uri" : "kauc_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "kauc_occlusionRoughnessMetallic",
+            "uri" : "kauc_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "StanzaMobilni_kauc_BaseColor",
+            "uri" : "StanzaMobilni_kauc_BaseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "kauc mali_normal",
+            "uri" : "kauc%20mali_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "kauc mali_occlusionRoughnessMetallic",
+            "uri" : "kauc%20mali_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "StanzaMobilni_kauc mali_BaseColor",
+            "uri" : "StanzaMobilni_kauc%20mali_BaseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 145421,
+            "max" : [
+                148.4091796875,
+                191.26100158691406,
+                66.947265625
+            ],
+            "min" : [
+                -350.3707275390625,
+                -60.785247802734375,
+                16.1805419921875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 145421,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 145421,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 656373,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 2276102,
+            "max" : [
+                157.60122680664062,
+                216.6991729736328,
+                39.19464111328125
+            ],
+            "min" : [
+                -128.6322021484375,
+                -70.37431335449219,
+                -16.890380859375
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 2276102,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 2276102,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 3848424,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1001474,
+            "max" : [
+                76.33599853515625,
+                74.53074645996094,
+                39.18975830078125
+            ],
+            "min" : [
+                -105.4154052734375,
+                -103.13813781738281,
+                -23.69549560546875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1001474,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1001474,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5125,
+            "count" : 1690962,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 671692,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10235301,
+            "byteOffset" : 671692
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4398841,
+            "byteOffset" : 10906996
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 15305840,
+            "uri" : "DeoDrugi_01.bin"
+        }
+    ]
+}
